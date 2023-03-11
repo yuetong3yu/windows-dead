@@ -14,7 +14,7 @@ document.querySelector('#primary .title').addEventListener('mousedown', (e) => {
   offset.top = e.clientY - bounding.top
 })
 
-window.addEventListener('mousemove', debounce(duplicate, 10))
+window.addEventListener('mousemove', debounce(duplicate, 2))
 
 function duplicate(e) {
   if (mousedown) {
