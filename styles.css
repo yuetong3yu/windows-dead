@@ -13,19 +13,6 @@ body {
   background-color: #0d7073;
 }
 
-body::after {
-  content: 'DRAG\A\AME';
-  white-space: pre;
-  display: block;
-  min-height: 100vh;
-  color: #fff;
-  font-size: 30vh;
-  opacity: 0.1;
-  z-index: -1;
-  text-align: center;
-  position: fixed;
-}
-
 .prompt {
   position: absolute;
   width: 300px;
